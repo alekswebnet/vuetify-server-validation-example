@@ -5,7 +5,7 @@
     <!-- Email field -->
     <v-text-field
       v-model="email.value.value"
-      class="me-10"
+      class="me-10 mb-2"
       :error-messages="email.errorMessage.value"
       label="E-mail"
     ></v-text-field>
