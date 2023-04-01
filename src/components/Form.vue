@@ -1,6 +1,6 @@
 <template>
   <form class="pt-6" @submit.prevent="submit">
-    <legend class="text-h4 mb-6">Login form</legend>
+    <legend class="text-h4 mb-6">Register form</legend>
     <v-text-field
       v-model="email.value.value"
       class="me-10"
