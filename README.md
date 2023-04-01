@@ -1,4 +1,4 @@
-# Server validation with Vuetify + VeeValidate
+# Server validation with Vuetify 3 + VeeValidate 4
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/alekswebnet/vuetify-server-validation-example/)
 
