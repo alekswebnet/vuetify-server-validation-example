@@ -28,20 +28,8 @@ npm run dev
 pnpm dev
 ```
 
-### Compiles and minifies for production
+### Creds
 
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+Email: eve.holt@reqres.in
+Password: password
 
