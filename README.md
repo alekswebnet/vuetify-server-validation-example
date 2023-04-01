@@ -30,6 +30,7 @@ pnpm dev
 
 ### Creds
 
-Email: eve.holt@reqres.in
-Password: password
+**Email:** eve.holt@reqres.in
+
+**Password:** password
 
