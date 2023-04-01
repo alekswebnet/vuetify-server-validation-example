@@ -1,4 +1,4 @@
-# 🔥 Handling server validation with Vuetify 3 + Vee Validate 4
+# 🔥 Handling server validation with Vuetify 3 + Vee Validate 4 + Reqres
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/alekswebnet/vuetify-server-validation-example/)
 
