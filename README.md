@@ -1,4 +1,4 @@
-# default
+# Server validation with Vuetify + VeeValidate
 
 ## Project setup
 
