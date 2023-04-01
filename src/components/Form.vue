@@ -1,6 +1,8 @@
 <template>
   <form class="pt-6" @submit.prevent="submit">
     <legend class="text-h4 mb-6">Register form</legend>
+
+    <!-- Email field -->
     <v-text-field
       v-model="email.value.value"
       class="me-10"
@@ -8,6 +10,7 @@
       label="E-mail"
     ></v-text-field>
 
+    <!-- Password field -->
     <v-text-field
       v-model="password.value.value"
       :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
@@ -39,7 +42,20 @@
 
   export default {
     setup () {
-      const { handleSubmit, handleReset, setErrors } = useForm()
+      const { handleSubmit, handleReset, setErrors } = useForm({
+        validationSchema: {
+          email (value) {
+            if (/^[a-z.-]+@[a-z.-]+\.[a-z]+$/i.test(value)) return true
+
+            return 'Must be a valid e-mail.'
+          },
+          password (value) {
+            if (value?.length >= 6) return true
+
+            return 'Password length needs to be at least 6.'
+          }
+        },
+      })
       const email = useField('email')
       const password = useField('password')
       const showPassword = ref(false)
